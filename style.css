@@ -1,0 +1,183 @@
+* {
+    margin: 0px;
+    padding: 0px;
+
+}
+
+body {
+    font-family: "Gabarito", sans-serif;
+}
+
+.navbar {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: solid black 1px;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.navbar__s1__tittle {
+    color: #a435f0;
+    gap: 10%;
+
+
+}
+
+.navbar__s2 {
+    padding: 10px;
+    border: solid black 1px;
+    border-radius: 30px;
+    width: 70%;
+    display: flex;
+    gap: 10px;
+
+
+}
+
+.navbar__s2 input {
+    border: 0px;
+    width: 100%;
+    justify-content: center;
+    outline: 0px;
+}
+
+.navbar__s3 {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+
+}
+
+.categories {
+    display: flex;
+    padding: 10px;
+    justify-content: space-around;
+    height: 35px;
+    align-items: center;
+    border-bottom: solid black 1px;
+    flex-wrap: wrap;
+}
+
+.categories p {
+    background-color: #a435f0;
+    color: white;
+    padding: 10px;
+    border-radius: soild black 5px;
+    border-radius: 30px;
+
+}
+
+.add__1 img {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+
+
+}
+
+.recommended {
+    padding: 10px;
+    margin: 10px;
+    flex-wrap: wrap;
+
+}
+
+.recommended__container {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    margin: 10px;
+    
+}
+
+.course-card {
+    justify-items: center;
+    width: 250px;
+    height: 280px;
+    flex: grow 30px;
+    border: solid black 1px;
+}
+.course-card button {
+    border: none;
+    background-color:white;
+    color: black;
+    
+}
+.course-card button:hover{
+    background-color: #a435f0;
+    color:white;
+    border-radius: 20px;
+    width: 50px;
+
+}
+
+.course-card img {
+    width: 100%;
+}
+
+.topics {
+    padding: 10px;
+    flex-wrap: wrap;
+}
+
+.topics__container {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+    flex-wrap: wrap;
+
+}
+
+.topics__container p{
+    border: solid gray 2px;
+    padding: 10px;
+    flex-grow: 1;
+    flex-basis: 25%;
+
+}
+.topics__container :hover{
+    background-color: #a435f0;
+    color: white;
+    border-radius: 20px;
+}
+
+.popular {
+    padding: 10px;
+}
+
+.popular__container {
+    padding-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: 600px;
+    flex-grow: 1;
+
+}
+
+.info {
+    padding: 15px;
+    border-top: solid black 1px;
+    background: black;
+    color: white;
+    display: flex;
+    gap: 15px;
+}
+.info-one__s1 p:hover{
+    border:solid white 1px;
+    background-color:white;
+    color:#a435f0;
+}
+.info-one__s2 p:hover{
+    border:solid white 1px;
+    background-color:white;
+    color:#a435f0;
+}
+#info__two {
+    padding-left: 25px;
+    background: black;
+    color: white;
+
+}
